@@ -317,17 +317,3 @@ Para escalar o número de réplicas:
 ```bash
 docker service scale xml-to-json-api_app=5
 ```
-
----
-
-## **Nome do Repositório**
-
-Sugestão de nome para o repositório: **xml-to-json-api**
-
----
-
-## **Considerações Finais**
-
-Este projeto está pronto para ser utilizado e implantado em diferentes ambientes, seja localmente ou em um cluster Docker Swarm. Sinta-se à vontade para personalizar e expandir conforme as necessidades do seu projeto.
-
-Se tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato.

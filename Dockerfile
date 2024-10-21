@@ -1,27 +1,14 @@
-FROM node:20-alpine AS build
+FROM node:latest
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY package.json package-lock.json ./
+COPY package*.json ./
+RUN npm install
 
-RUN npm ci
-
-COPY tsconfig.json ./
-COPY src ./src
+COPY . .
 
 RUN npm run build
 
-FROM node:20-alpine
-
-WORKDIR /app
-
-COPY package.json package-lock.json ./
-
-RUN npm ci --only=production
-
-COPY --from=build /app/dist ./dist
-COPY .env ./
-
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["node", "dist/server.js"]
