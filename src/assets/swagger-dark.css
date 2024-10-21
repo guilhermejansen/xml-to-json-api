@@ -1,0 +1,263 @@
+/* src/assets/swagger-dark.css */
+
+/* Modo escuro */
+body {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.swagger-ui {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.swagger-ui .topbar {
+  background-color: #333333;
+}
+
+.swagger-ui .topbar .topbar-wrapper .link img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+.swagger-ui .info .title {
+  color: #ffffff;
+}
+
+.swagger-ui .info .description {
+  color: #c0c0c0;
+}
+
+.swagger-ui .model-title,
+.swagger-ui .parameter__name,
+.swagger-ui .response-col_status,
+.swagger-ui .response-col_description {
+  color: #ffffff;
+}
+
+.swagger-ui .opblock-summary-method {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.swagger-ui .opblock-summary-path {
+  color: #cccccc;
+}
+
+.swagger-ui .opblock-summary-description {
+  color: #aaaaaa;
+}
+
+.swagger-ui a.nostyle,
+.swagger-ui a.nostyle:visited {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .opblock-external-docs-wrapper p,
+.swagger-ui .opblock-title_normal p {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.swagger-ui .opblock .opblock-summary {
+  color: #ffffff;
+}
+
+.swagger-ui .opblock .opblock-summary-path {
+  color: #ffffff;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+  color: #c0c0c0;
+}
+
+.swagger-ui .opblock .opblock-summary-operation-id {
+  color: #ffffff;
+}
+
+.swagger-ui .opblock .opblock-body pre,
+.swagger-ui .opblock .opblock-body code,
+.swagger-ui .opblock .opblock-body .response-col_description,
+.swagger-ui .opblock .opblock-body .response-col_status,
+.swagger-ui .opblock .opblock-body .parameter__name,
+.swagger-ui .opblock .opblock-body .parameter__in {
+  color: #ffffff;
+}
+
+.swagger-ui .opblock .opblock-body .tab li {
+  background-color: #333333;
+}
+
+.swagger-ui .opblock .opblock-body .tab li.active {
+  background-color: #444444;
+}
+
+.swagger-ui .opblock .opblock-body .tab-content .markdown p {
+  color: #ffffff;
+}
+
+.swagger-ui .responses-inner > div {
+  color: #ffffff;
+}
+
+.swagger-ui .responses-inner .response .response-col_description,
+.swagger-ui .responses-inner .response .response-col_status {
+  color: #ffffff;
+}
+
+.swagger-ui .parameters-container .parameter__name {
+  color: #ffffff;
+}
+
+.swagger-ui .parameters-container .parameter__type {
+  color: #c0c0c0;
+}
+
+.swagger-ui .parameters-container .parameter__description {
+  color: #aaaaaa;
+}
+
+.swagger-ui .parameter__in {
+  color: #c0c0c0;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.swagger-ui .opblock {
+  border-color: #444444;
+}
+
+.swagger-ui .opblock-tag {
+  //background-color: #444444;
+  color: #ffffff;
+}
+
+.swagger-ui .opblock-tag:hover {
+  background-color: #555555;
+}
+
+.swagger-ui .tab li button.tablinks {
+  background: none;
+  border: 0;
+  color: white;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0;
+}
+
+.swagger-ui .opblock .opblock-section-header h4 {
+  color: white;
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.swagger-ui .response-col_links {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  max-width: 40em;
+  padding-left: 2em;
+}
+
+.swagger-ui .model {
+  color: white;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 300;
+  font-weight: 600;
+}
+
+.swagger-ui .info li, 
+.swagger-ui .info p, 
+.swagger-ui .info table {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.swagger-ui section.models h4 {
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 20px 10px 10px;
+  transition: all .2s;
+}
+
+.swagger-ui .scheme-container {
+  background: #2e2e2e;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15);
+  margin: 0 0 20px;
+  padding: 30px 0;
+}
+
+.swagger-ui .opblock-description-wrapper, .swagger-ui .opblock-external-docs-wrapper, .swagger-ui .opblock-title_normal {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin: 0 0 5px;
+  padding: 15px 20px;
+}
+
+.swagger-ui .btn {
+  background: rgba(0, 0, 0, .1);
+  border: 2px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 23px;
+  transition: all .3s;
+}
+
+.swagger-ui table thead tr td, .swagger-ui table thead tr th {
+  border-bottom: 1px solid rgba(59, 65, 81, .2);
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 12px 0;
+  text-align: left;
+}
+
+.swagger-ui input[disabled], .swagger-ui select[disabled], .swagger-ui textarea[disabled] {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.swagger-ui .opblock-tag small {
+  color: #ffffff;
+  flex: 2;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.swagger-ui .markdown code, .swagger-ui .renderedMarkdown code {
+  background: rgba(32, 18, 254, 0.25);
+  border-radius: 4px;
+  color: #2012fe;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 2px 2px;
+}

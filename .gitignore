@@ -1,0 +1,8 @@
+/node_modules
+.env
+package-lock.json
+/dist
+/logs
+sendTestEmail.ts
+/tests
+jest.config.js
