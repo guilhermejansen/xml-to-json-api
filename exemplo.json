@@ -1,0 +1,36 @@
+[
+  {
+    "destination_id": 34,
+    "name": "Passeio de Quadriciclo em Joaquim Egídio – Campinas",
+    "description": "O Passeio de Quadriciclo em Campinas é muito divertido e coloca você em contato com a natureza por trilhas e trechos com paisagens incríveis",
+    "address": "Campinas, SP, Brasil",
+    "latitude": -46.956273,
+    "longitude": -22.878814,
+    "neighborhood": "",
+    "image": {
+      "url": "https://aventurando.com.br/media/catalog/product/j/o/joaquim-egidio-campinas-quadriciclo-13.jpg",
+      "caption": "Passeio de Quadriciclo em Joaquim Egídio – Campinas"
+    },
+    "types": "Quadriciclo, Romântico, Na Natureza, Relaxar, Radical, Com crianças, No Frio, Campinas - SP, São Paulo, Campinas, Off-road",
+    "price": "R$ 179.9",
+    "price_change": "",
+    "url": "https://www.aventurando.com.br/passeio-de-quadriciclo-em-joaquim-egidio-campinas.html"
+  },
+  {
+    "destination_id": 46,
+    "name": "Voo duplo Instrucional de Parapente em São Pedro - SP",
+    "description": "Voo de Parapente de instrução realizado em Pedra Grande São pedro a 1.418 metros de altura acima do nível do mar.",
+    "address": "São Pedro, SP, Brasil",
+    "latitude": -47.8987749,
+    "longitude": -22.5097821,
+    "neighborhood": "",
+    "image": {
+      "url": "",
+      "caption": ""
+    },
+    "types": "Na Natureza, Relaxar, Radical, Parapente, No Frio, São Pedro - SP, São Paulo, Brotas, Campinas, No ar",
+    "price": "R$ 350",
+    "price_change": "",
+    "url": "https://www.aventurando.com.br/voo-duplo-de-parapente-s-o-pedro-sp.html"
+  }
+]
